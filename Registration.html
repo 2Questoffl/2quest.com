@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Registeration Page</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        body{
+            
+            background-size: 100%;  
+            background: url(./insti.jpg);
+        }
+        .main{
+            width: 500px;
+            margin: 10px auto 0px auto;
+        }
+        .heading{
+            background-color: red;
+        }
+        h2{
+            text-align: center;
+            padding: 20px;
+        }
+        .body{
+            background-color: black;
+            color: white;
+        }
+        #register{
+            margin-left: 20px;       
+        }
+        label{
+            font-size: large;
+        }
+        #name{
+          width: 300px;
+          height: 20px;
+        }
+        .footer{
+            text-align: center;
+            padding: 20px;
+            background-color: red;
+        }
+        button{
+            padding: 10px;
+            width: 200px;
+            background-color: black;
+            color: white;
+        }
+        button:hover{
+            background-color: rgb(151, 5, 5);
+            transition: 1s;
+        }
+      
+    </style>
+</head>
+<body>
+   <center><h2>As of now server facing issues.Sorry for the inconvenience..!</h2></center> 
+    <div class="main">
+        <div class="register">
+            <div class="heading"><h2>Registration</h2></div>
+
+            <div class="body"><br>
+                <form id="register" action="" method="post">
+                    <label for="">First Name :</label>
+                    <br>
+                    <input type="text" name="firstname" id="name" placeholder="Enter Your First Name">
+                    <br><br>
+    
+                    <label for="">Last Name :</label>
+                    <br>
+                    <input type="text" name="Lastname" id="name" placeholder="Enter Your Last Name">
+                    <br><br>
+    
+                    <label for="">Age :</label>
+                    <br>
+                    <input type="number" name="age" id="name" placeholder="Enter Your Age">
+                    <br><br>
+    
+                    <label for="">Email ID :</label>
+                    <br>
+                    <input type="email" name="emailid" id="name" placeholder="Enter valid Email ID">
+                    <br><br>
+
+                    <label for="">Contact Number : </label>
+                    <input type="radio" name="Contact Number"> Personal
+                    <input type="radio" name="Contact Number"> Home
+                    <!--<input type="radio" name="Contact Number"> Personal
+                    <input type="radio" name="Contact Number"> Home -->
+                    <br>
+                    <input type="text" name="contact number" id="name" placeholder="Enter valid Contact Number">
+                    <br><br>
+
+                    <label for="">Course Name : </label>
+                    <br>
+                    <input type="text" name="course name" id="name" placeholder="Enter course name">
+                    <br><br>
+    
+                    <label for="">Gender :</label>
+                    <br>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <input type="radio" name="gender"> Others
+                    <br><br>
+    
+                    <label for="">Language Known :</label>
+                    <br>
+                    <input type="checkbox"> English
+                    <input type="checkbox"> Tamil
+                    <input type="checkbox"> Hindi
+                    <input type="checkbox"> Telugu
+                    <input type="checkbox"> Kanada
+                    <input type="checkbox"> Malayalam
+                    <br><br>
+            </div>
+            
+            <div class="footer">
+                <button>Submit <a href="./submit page.html"></a></button>
+            </div>
+            </form>
+        </div>
+    </div> 
+</body>
+</html>

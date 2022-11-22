@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2Quest</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        .titleimg{
+            margin-top: 10px;
+        }
+        .comp{
+            color: black;
+            font-style: italic;
+            text-align: center;
+        }
+        .marq{
+            color: red;
+            font-style: italic;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .navbarul{
+            display: flex;
+            list-style-type: none;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+            background-color: rgb(151, 5, 5);
+            color: white;
+            display: block;
+            width: 170px;
+            padding: 10px 0;
+            text-align: center;
+
+        }
+
+        a:hover{
+          background-color: red;
+        }
+        .all {
+            list-style-type: none;
+            display: none;
+            position: absolute;
+        }
+        .navbarul li:nth-child(1):hover .all{
+            display: block;
+        }
+        .places{
+            list-style: none;
+            display: none;
+            position: absolute;
+        }
+        .navbarul li:nth-child(2):hover .places{
+            display: block;
+        }
+        .classtype{
+            display: none;
+            list-style-type: none;
+            position: absolute;
+        }
+        .navbarul li:nth-child(3):hover .classtype{
+            display: block;
+        }
+        .courses{
+            display: none;
+            list-style-type: none;
+            position: absolute;
+        }
+        .navbarul li:nth-child(4):hover .courses{
+            display: block;
+        }
+        .development{
+            display: none;
+            list-style-type: none;
+            position: absolute;
+        }
+        .navbarul li:nth-child(5):hover .development{
+            display: block;
+        }
+        .testing{
+            display: none;
+            list-style-type: none;
+            position: absolute;
+        }
+        .navbarul li:nth-child(6):hover .testing{
+            display: block;
+        }
+        .registeration{
+            display: none;
+            list-style-type: none;
+            position: absolute;
+        }
+        .navbarul li:nth-child(7):hover .registeration{
+            display: block;
+        }
+
+        .box{
+            border: 2px solid white;
+            height: 200px;
+            display: flex;
+        }
+        .red{
+            border: 2px solid white;
+            height: 200px;
+            width: 25%;
+            
+        }
+        .blue{
+            height: 200px;
+            width: 25%;
+            background-color: blue;
+        }
+        .green{
+            height: 200px;
+            width: 25%;
+            background-color: green;
+        }
+        .yellow{
+            height: 200px;
+            width: 25%;
+            background-color: yellow;
+        }
+
+        .divdev{
+            border: 2px solid white;
+            height: 200px;
+            background-color:black;
+            display: flex;
+            height: 200px;
+        }
+        .devpa{
+            border: 1px solid white;
+            height: 200px;
+            width: 70%;
+            overflow-y: scroll;
+            background-color: rgb(151, 5, 5);
+            color: rgba(255, 255, 255, 0.71);
+        }
+        h2{
+           color: white;
+        }
+        .devpic{
+            border: 1px solid white;
+            height: 200px;
+            width: 30%;
+            background-color: white;
+        }
+        .devcourse{
+            border: 1px solid white;
+            height: 200px;
+            width: 70%;
+            background-color: rgb(0, 0, 0);
+            overflow-y: scroll;
+            color: rgba(255, 255, 255, 0.71);
+        }
+        .devcoursepic{
+            border: 1px solid white;
+            height: 200px;
+            width: 30%;
+            background-color: rgb(0, 0, 0);
+        }
+        .testcourse{
+            border: 1px solid white;
+            height: 200px;
+            width: 70%;
+            background-color: rgb(151, 5, 5);
+            color: rgba(255, 255, 255, 0.71);
+            overflow-y: scroll;
+        }
+        .testcoursepic{
+            border: 1px solid white;
+            height: 200px;
+            width: 30%;
+            background-color: rgb(151, 5, 5);
+        }
+    </style>
+</head>
+<body>
+    <h2 class="comp"><img class="titleimg" src="./2quest-logo (1).png" height="50px" width="60px" alt=""> <img src="./2quest-logo (2).png" height="50px" width="220px" alt=""></h2>
+    <marquee behavior="" direction="">
+        <h2 class="marq">Learn...Grow...Inspire...</h2>
+    </marquee>
+    <div class="navbar">
+        <ul class="navbarul">
+            <li class="li1"> <a href="./index.html">HOME</a>
+                
+            </li>
+            <li class="li1"><a href="#">PLACES</a>
+                <ul class="places">
+                    <li class="lidd"><a href="#">Bangalore</a></li>
+                </ul>
+            </li>
+            <li class="li1"><a href="#">CLASS TYPE</a>
+                <ul class="classtype">
+                    <li class="lidd"><a href="#">Online</a></li>
+                    <li class="lidd"><a href="#">Offline</a></li>
+                </ul>
+            </li>
+            <li class="li1"><a href="#">CONTACT US</a>
+                <ul class="courses">
+                    <li class="lidd"><a href="./contactus.html">Click here</a></li>
+    
+                </ul>
+            </li>
+            <li class="li1"><a href="#">DEVELOPMENT</a>
+                <ul class="development">
+                    <li class="lidd"><a href="#">Java</a></li>
+                    <li class="lidd"><a href="#">HTML/CSS</a></li>
+                    <li class="lidd"><a href="#">Javascript</a></li>
+                    <li class="lidd"><a href="#">SQL</a></li>
+                </ul>
+            </li>
+            <li class="li1"><a href="#">TESTING</a>
+                <ul class="testing">
+                    <li class="lidd"><a href="#">Manual Testing</a></li>
+                    <li class="lidd"><a href="#">Automation testing</a></li>
+                </ul>
+            </li>
+            <li class="li1"><a href="#">REGISTRATION</a>
+                <ul class="registeration">
+                    <li class="lidd"><a href="./Registration.html" target="_blank">Click here</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><br>
+
+
+    <div class="box">
+          <div class="red"><img src="./studyl1" height="200px" width="100%" alt=""></div>
+          <div class="blue"><img src="./studyl2" height="200px" width="100%" alt=""></div>
+          <div class="green"><img src="./studyl3" height="200px" width="100%"alt=""></div>
+          <div class="yellow"><img src="./studyl4" height="200px" width="100%"alt=""></div>
+    </div><br>
+
+    <div class="divdev">
+        <div class="devpa"><h2> <center>About Development:</center> </h2>
+        <h3>
+            The terms software development process and software development life cycle are often used interchangeably. Even if you go onto the Google search engine and enter both terms, you’ll be served very similar content. <br>
+            But there is a clear difference between a life cycle and a process and the two terms should not be confused or treated as similies. Using the terms in the context of software development is no exception. <br>
+            A process, then, is a series of actions executed in a particular order. A software development process consists of steps that ultimately lead to a deployed product. For example, Openxcell details the following components of the process of developing software documentation, done in the design phase of the SDLC  Write comprehensive and easy to understand documents with no redundant information. <br>
+            Develop an organized document repository for any critical project information, so the Development Team members can access, store, and refer to project documents and other deliverables from all life cycle phases. <br>
+            Implement the periodic deliverable reviews to correct inaccuracy, ambiguities, and incompleteness. <br>
+            Recognize that the sample templates for deliverables are available. So, the agencies may accept the deliverables in different formats as long as all the required information is present. This deliverables’ content might expand or shrink depending on the project’s size, scope, and complexity.
+            Recycle or reference information from the earlier documents where it’s possible and beneficial. <br>
+        </h3>
+        </div>
+        <div class="devpic"><img src="./software-development-process.png" height="200px" width="100%" alt=""></div>
+    </div>
+    <div class="divdev">
+        <div class="devcourse"><h2>
+            <center> Details about development courses:</center> 
+        </h2>
+    <h3>
+        A software life cycle model (also termed process model) is a pictorial and diagrammatic representation of the software life cycle. A life cycle model represents all the methods required to make a software product transit through its life cycle stages. It also captures the structure in which these methods are to be undertaken.
+
+In other words, a life cycle model maps the various activities performed on a software product from its inception to retirement. Different life cycle models may plan the necessary development activities to phases in different ways. Thus, no element which life cycle model is followed, the essential activities are contained in all life cycle models though the action may be carried out in distinct orders in different life cycle models. During any life cycle stage, more than one activity may also be carried out.
+    </h3></div>
+        <div class="devcoursepic"><img src="./sd1" height="200px" width="100%" alt=""></div>
+    </div>
+    <div class="divdev">
+        <div class="testcourse">
+            <h2>
+                <center>Details about Testing course:</center>
+            </h2>
+            <h3>
+                Software Testing Life Cycle (STLC) is a sequence of specific activities conducted during the testing process to ensure software quality goals are met. STLC involves both verification and validation activities. Contrary to popular belief, Software Testing is not just a single/isolate activity, i.e. testing. It consists of a series of activities carried out methodologically to help certify your software product. STLC stands for Software Testing Life Cycle.
+                Requirement Phase Testing also known as Requirement Analysis in which test team studies the requirements from a testing point of view to identify testable requirements and the QA team may interact with various stakeholders to understand requirements in detail. Requirements could be either functional or non-functional. Automation feasibility for the testing project.
+
+            </h3>
+        </div>
+        <div class="testcoursepic"><img src="./Software-Testing--1024x576.jpg" height="200px" width="100%" alt=""></div>
+    </div>
+</body>
+</html>
